@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'din';
+  src: url('/D-DIN.woff');
+}
 @tailwind base;
 @tailwind components;
 @tailwind utilities;

@@ -6,14 +6,12 @@ import React from 'react';
 const Home: NextPage = () => {
   return (
     <Layout>
-      <div className="h-screen">
-        <Image
-          src="/bg-image-homepage-1.png"
-          quality={100}
-          layout="fill"
-          objectFit="cover"
-          alt="bg-homepage"
-        />
+      <div
+        className="h-screen bg-[url('/bg-image-homepage-1.png')] bg-center
+      "
+      ></div>
+      <div className="bg-black">
+        <p className="text-white">kontol</p>
       </div>
     </Layout>
   );

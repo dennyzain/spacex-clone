@@ -11,7 +11,7 @@ const Home: NextPage = () => {
       "
       ></div>
       <div className="bg-black">
-        <p className="text-white">kontol</p>
+        <p className="text-white">astaghfirullah</p>
       </div>
     </Layout>
   );
